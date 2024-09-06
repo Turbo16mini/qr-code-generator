@@ -1,0 +1,17 @@
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.popup {
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}

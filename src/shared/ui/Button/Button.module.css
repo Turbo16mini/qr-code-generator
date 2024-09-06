@@ -1,0 +1,51 @@
+.primary {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    outline: none;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.primary:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+.primary:active {
+    background-color: rgb(70, 70, 70);
+}
+
+.secondary {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    white-space: nowrap;
+}
+
+.secondary:hover {
+    background-color: rgba(0, 0, 0, 10%);
+}
+
+.secondary:active {
+    background-color: rgba(0, 0, 0, 20%);
+}
+
+.large {
+    padding: 12px 32px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.small {
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.wide {
+    width: 100%;
+}
